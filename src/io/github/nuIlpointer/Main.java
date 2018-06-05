@@ -14,16 +14,16 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		getLogger().info("§6---------------------------------------");
-		getLogger().info("§6nuIlpointer's System Utilization is §aenabled.");
-		getLogger().info("§6---------------------------------------");
+		getLogger().info(ChatColor.GOLD + "---------------------------------------");
+		getLogger().info(ChatColor.GOLD + "nuIlpointer's System Utilization is " + ChatColor.GREEN + "enabled.");
+		getLogger().info(ChatColor.GOLD + "---------------------------------------");
 	}
 	
 	@Override
 	public void onDisable() {
-		getLogger().info("§6----------------------------------------");
-		getLogger().info("§6nuIlpointer's System Utilization is §4disabled.");
-		getLogger().info("§6----------------------------------------");
+		getLogger().info(ChatColor.GOLD + "----------------------------------------");
+		getLogger().info(ChatColor.GOLD + "nuIlpointer's System Utilization is " + ChatColor.DARK_RED + "disabled.");
+		getLogger().info(ChatColor.GOLD + "----------------------------------------");
 	}
 	
 	@Override
@@ -45,7 +45,7 @@ public class Main extends JavaPlugin {
 			//出力
 			sender.sendMessage("§6------------§f§n§l[System Utilization]§r§6------------");
 			sender.sendMessage("§6物理メモリ: §f§l§n" + osMx.getTotalPhysicalMemorySize() / 1048576 + "§r§6 MB");
-			sender.sendMessage("§6JVMが確保できるできる最大メモリ容量: §f§l§n" + max + "§r§6 MB" );
+			sender.sendMessage("§6JVMが確保できる最大メモリ容量: §f§l§n" + max + "§r§6 MB" );
 			sender.sendMessage("§6JVMが現在確保しているメモリ: §f§l§n" + total + "§r§6 MB");
 			sender.sendMessage("§6メモリの空き容量: §f§l§n" + free + "§r§6 MB");
 			sender.sendMessage("§6使用済みのメモリ: §f§l§n" + used + "§r§6 MB");
