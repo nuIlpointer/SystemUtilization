@@ -1,0 +1,13 @@
+name: nuilpointer's System Utilization
+main: io.github.nuIlpointer.Main
+version: 1.0.0
+author: shachikuchan(nuilpointer)
+description: サーバーのシステム状態表示プラグイン
+website: https://nuIlpointer.github.io/
+prefix: nuIlSysUtil
+commands:
+  utilization:
+    description: Tool of see this server system utilization.
+    permission: sysutil.use
+    permission-message: §4You can't Use nuIlpointer's System Utilization!
+    usage: /utilization
