@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: nuIlpointerSystemUtilization
+=======
+name: nuilpointer System Utilization
+>>>>>>> f5720fabd2900a336fe2f8152e956454cc197a4e
 main: io.github.nuIlpointer.Main
 version: 1.0.1
 author: shachikuchan(nuilpointer)
